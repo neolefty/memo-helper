@@ -17,3 +17,5 @@ Then, to start a development session and run the code:
 . .venv/bin/activate
 python src/python_google/speech.py
 ```
+
+Note that `rye` pins Python 3.11, which is needed for `portaudio` as described [here](https://medium.com/@yashwant-das/installing-pyaudio-on-macos-14-0-with-an-m1-macbook-3952c73598d6)
